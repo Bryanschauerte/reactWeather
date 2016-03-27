@@ -1,26 +1,19 @@
 {
   "name": "weatherapp",
   "version": "1.0.0",
-  "description": "react app using open weather API",
+  "description": "Simple one-day throw-away react app using open weather API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --display-error-details"
   },
   "keywords": [
-    "react",
-    "flux"
+    "react"
   ],
   "author": "bryan schauerte",
   "license": "ISC",
   "dependencies": {
-    "assign": "^0.1.7",
     "axios": "^0.9.1",
-    "classnames": "^2.2.3",
-    "events": "^1.1.0",
-    "flux": "^2.1.1",
-    "keymirror": "^0.1.1",
-    "object-assign": "^4.0.1",
     "react": "^0.14.7",
     "react-addons-css-transition-group": "^0.14.7",
     "react-dom": "^0.14.7",
